@@ -56,7 +56,10 @@ function App() {
     )
   }
   return (
-    <main className='flex justify-center items-center h-screen flex-col'>
+    <main className='flex justify-center items-center h-screen flex-col gap-5'>
+      <Countdown
+        date={Date.now() + time}
+      />
       <Countdown
         key={startKey}
         date={Date.now() + time}
