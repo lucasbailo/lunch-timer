@@ -1,12 +1,37 @@
-# React + Vite
+# ⏰ Lunch Countdown App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React application that displays a **countdown timer** with a **circular progress bar** to track lunch break time. When the countdown ends, an alarm sound is played.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Starts a countdown of **1 hour and 12 minutes** (4320000 ms).
+- Displays **percentage-based progress** with an animated circular bar.
+- Shows the **start time** and the **expected return time**.
+- Plays a **loud alarm sound** when the countdown finishes.
+- Clean, responsive UI styled with Tailwind CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Built With
+
+- [React](https://react.dev/)
+- [react-countdown](https://www.npmjs.com/package/react-countdown)
+- [react-circular-progressbar](https://www.npmjs.com/package/react-circular-progressbar)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+---
+
+## 📦 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/your-username/lunch-countdown.git
+cd lunch-countdown
+
+# Install dependencies
+npm install
+
+# Run the project
+npm run dev
